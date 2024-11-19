@@ -1,4 +1,4 @@
-export const dataStewards = [
+export const dataStewards: DataSteward[] = [
   {
     name: "Liz Guzman-Ramirez",
     role: "Coordinator",
@@ -57,3 +57,10 @@ export const dataStewards = [
       "https://tracking.tue.nl/pic/acc/7713/A633B04A/1eea2ae7c4fb325dafcbfc26b0666199/image.png",
   },
 ]
+
+export type DataSteward = {
+  name: string
+  role: string
+  pureUrl: string
+  photoUrl: string
+}
