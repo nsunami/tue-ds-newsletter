@@ -15,6 +15,7 @@ import {
 } from "@react-email/components"
 import * as React from "react"
 import { dataStewards } from "../../data/dataStewards"
+import { createTable } from "../../lib/createTable"
 
 const baseUrl = process.env.VERCEL_URL
   ? `https://${process.env.VERCEL_URL}`
@@ -54,55 +55,29 @@ export const StripeWelcomeEmail = () => (
           </Section>
           <Section>
             <Heading as="h2">Meet your data stewards</Heading>
-
-            <Row>
-              {dataStewards.slice(0, 4).map((steward) => {
-                return (
+            {createTable(dataStewards).map((row) => (
+              <Row>
+                {row.map((cell) => (
                   <Column className="w-1/4 px-2">
                     <Img
                       className="w-full object-cover rounded-lg"
                       height={150}
-                      src={steward.photoUrl}
+                      src={cell.photoUrl}
                     />
                     <Text>
                       <Link
                         className="font-bold text-white"
                         href="https://research.tue.nl/en/persons/liz-guzman-ramirez"
                       >
-                        {steward.name}
+                        {cell.name}
                       </Link>
                       <br />
-                      {steward.role}
+                      {cell.role}
                     </Text>
                   </Column>
-                )
-              })}
-            </Row>
-            <Row>
-              {dataStewards.slice(4, 8).map((steward) => {
-                return (
-                  <Column className="w-1/4 px-2">
-                    <Link href={steward.pureUrl}>
-                      <Img
-                        className="w-full object-cover rounded-lg"
-                        height={150}
-                        src={steward.photoUrl}
-                      />
-                    </Link>
-                    <Text>
-                      <Link
-                        className="font-bold text-white"
-                        href="https://research.tue.nl/en/persons/liz-guzman-ramirez"
-                      >
-                        {steward.name}
-                      </Link>
-                      <br />
-                      {steward.role}
-                    </Text>
-                  </Column>
-                )
-              })}
-            </Row>
+                ))}
+              </Row>
+            ))}
           </Section>
         </Container>
       </Body>
