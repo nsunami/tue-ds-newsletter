@@ -175,7 +175,13 @@ export const NewsletterEmail = ({ unsubscribeUrl }: NewsletterEmailProps) => (
             </Button>
           </Section>
           <Section>
-            <Heading as="h2">Trivia from Data Stewards</Heading>
+            <Heading as="h2">
+              <span className="text-sm font-normal">
+                Trivia from Data Stewards:
+                <br />
+              </span>
+              Planetary Nebula
+            </Heading>
             <Row>
               <Column className="w-1/2">
                 <Text>
