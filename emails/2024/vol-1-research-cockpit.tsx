@@ -31,7 +31,7 @@ export const NewsletterEmail = ({ unsubscribeUrl }: NewsletterEmailProps) => (
   <Tailwind>
     <Html className="font-sans">
       <Head />
-      <Preview>PAR Data Steward Newsletter Vol. 1</Preview>
+      <Preview>Data Steward Newsletter Vol. 1</Preview>
       <Body>
         <Container>
           <Section className="bg-fuchsia-800 text-sm px-4 py-[20px]">
@@ -68,9 +68,7 @@ export const NewsletterEmail = ({ unsubscribeUrl }: NewsletterEmailProps) => (
         </Container>
         <Container className="bg-fuchsia-800 text-white px-3">
           <Section>
-            <Heading className="text-center">
-              PAR Data Steward Newsletter
-            </Heading>
+            <Heading className="text-center">Data Steward Newsletter</Heading>
           </Section>
           <Section>
             <Text>Dear Colleague,</Text>
