@@ -175,7 +175,13 @@ export const NewsletterEmail = ({ unsubscribeUrl }: NewsletterEmailProps) => (
             </Button>
           </Section>
           <Section>
-            <Heading as="h2">Trivia from Data Stewards</Heading>
+            <Heading as="h2">
+              <span className="text-sm font-normal">
+                Trivia from Data Stewards:
+                <br />
+              </span>
+              Planetary Nebula
+            </Heading>
             <Row>
               <Column className="w-1/2">
                 <Text>
@@ -189,7 +195,15 @@ export const NewsletterEmail = ({ unsubscribeUrl }: NewsletterEmailProps) => (
                 </Text>
                 <Text>Liz (astrophysics)</Text>
               </Column>
-              <Column className="w-1/2 text-center">Image here</Column>
+              <Column className="w-1/2 text-center">
+                <Img
+                  className="w-full object-cover rounded-lg my-4"
+                  height={250}
+                  src={
+                    "https://tracking.tue.nl/pic/acc/7713/2611B9A5/e6c2c9d1054a54522edba9c52db8862f/image.jpeg"
+                  }
+                />
+              </Column>
             </Row>
           </Section>
         </Container>
