@@ -24,4 +24,4 @@ Open [localhost:3000](http://localhost:3000) with your browser to see the result
 
 ## License
 
-MIT License
+[Unlicense license](https://unlicense.org/) for public domain dedication 🧡
