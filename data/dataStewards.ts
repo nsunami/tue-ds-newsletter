@@ -1,7 +1,7 @@
 export const dataStewards: DataSteward[] = [
   {
     name: "Liz Guzman-Ramirez",
-    role: "Coordinator",
+    role: "Team Lead",
     pureUrl: "https://research.tue.nl/en/persons/liz-guzman-ramirez",
     photoUrl:
       "https://tracking.tue.nl/pic/acc/7713/E6F3DA4B/0800161685d9da5130b9511cba31c392/image.png",
