@@ -108,7 +108,7 @@ export const NewsletterEmail = ({ unsubscribeUrl }: NewsletterEmailProps) => (
               className="bg-white box-border rounded-md py-3 px-4 text-center font-semibold w-full"
               href="https://tue.atlassian.net/helpcenter/research/"
             >
-              Go to Research Cockpit
+              Go to the Research Cockpit
             </Button>
           </Section>
           <Section>
