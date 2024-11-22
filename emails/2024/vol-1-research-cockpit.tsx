@@ -119,15 +119,17 @@ export const NewsletterEmail = ({ unsubscribeUrl }: NewsletterEmailProps) => (
               <Row>
                 {row.map((cell) => (
                   <Column className="w-1/4 px-2 align-top">
-                    <Img
-                      className="w-full object-cover rounded-lg"
-                      height={150}
-                      src={cell.photoUrl}
-                    />
+                    <Link href={cell.pureUrl}>
+                      <Img
+                        className="w-full object-cover rounded-lg"
+                        height={150}
+                        src={cell.photoUrl}
+                      />
+                    </Link>
                     <Text>
                       <Link
                         className="font-bold text-white"
-                        href="https://research.tue.nl/en/persons/liz-guzman-ramirez"
+                        href={cell.pureUrl}
                       >
                         {cell.name}
                       </Link>
