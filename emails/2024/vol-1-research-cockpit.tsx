@@ -217,6 +217,10 @@ export const NewsletterEmail = ({ unsubscribeUrl }: NewsletterEmailProps) => (
             |{" "}
             <Link href="https://www.tue.nl/en/our-university/library/library-for-researchers-and-phds/research-data-management">
               RDM TU/e Public Website
+            </Link>{" "}
+            |{" "}
+            <Link href="https://tuenl.sharepoint.com/sites/intranet-LIS/SitePages/Data-stewards(1).aspx">
+              Intranet
             </Link>
           </Text>
           <Section className="text-center">
