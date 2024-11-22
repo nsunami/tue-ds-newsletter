@@ -167,7 +167,7 @@ export const NewsletterEmail = ({ unsubscribeUrl }: NewsletterEmailProps) => (
             </Section>
             <Button
               className="bg-white box-border rounded-md py-3 px-4 text-center font-semibold w-full my-4"
-              href="https://www.tue.nl/en/our-university/library/library-for-researchers-and-phds/research-data-management"
+              href="https://tuenl.sharepoint.com/sites/intranet-LIS/SitePages/Data-stewards(1).aspx"
             >
               Read more
             </Button>
@@ -217,6 +217,10 @@ export const NewsletterEmail = ({ unsubscribeUrl }: NewsletterEmailProps) => (
             |{" "}
             <Link href="https://www.tue.nl/en/our-university/library/library-for-researchers-and-phds/research-data-management">
               RDM TU/e Public Website
+            </Link>{" "}
+            |{" "}
+            <Link href="https://tuenl.sharepoint.com/sites/intranet-LIS/SitePages/Data-stewards(1).aspx">
+              Intranet
             </Link>
           </Text>
           <Section className="text-center">
