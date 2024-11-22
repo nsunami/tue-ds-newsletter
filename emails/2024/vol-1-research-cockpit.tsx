@@ -116,7 +116,7 @@ export const NewsletterEmail = ({ unsubscribeUrl }: NewsletterEmailProps) => (
             {createTable(dataStewards).map((row) => (
               <Row>
                 {row.map((cell) => (
-                  <Column className="w-1/4 px-2">
+                  <Column className="w-1/4 px-2 align-top">
                     <Img
                       className="w-full object-cover rounded-lg"
                       height={150}
