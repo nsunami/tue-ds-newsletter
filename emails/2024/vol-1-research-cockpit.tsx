@@ -72,25 +72,6 @@ export const NewsletterEmail = ({ unsubscribeUrl }: NewsletterEmailProps) => (
               Research Data Stewards Newsletter
             </Heading>
           </Section>
-          <Section>
-            <Text>Dear Colleague,</Text>
-            <Text>
-              Welcome to the one and only newsletter dedicated exclusively to
-              researchers at TU/e!
-            </Text>
-            <Text>
-              In this Newsletter you will find news, updates, and services
-              strictly targeted to researchers. We plan to send updates twice
-              per year only.
-            </Text>
-            <Text>We hope you enjoy it,</Text>
-            <Text>
-              Research Data Stewards <br />
-              Product Area Research <br />
-              Library & Information Services
-            </Text>
-          </Section>
-          <Hr />
           <Section className="text-center">
             <Heading>Launch of the Research Cockpit</Heading>
             <Img
@@ -107,7 +88,7 @@ export const NewsletterEmail = ({ unsubscribeUrl }: NewsletterEmailProps) => (
               support the entire research data lifecycle.
             </Text>
             <Button
-              className="bg-white box-border rounded-md py-3 px-4 text-center font-semibold w-full"
+              className="bg-white box-border rounded-md py-3 px-4 text-center font-semibold w-full my-4"
               href="https://tue.atlassian.net/helpcenter/research/"
             >
               Go to the Research Cockpit
@@ -225,7 +206,8 @@ export const NewsletterEmail = ({ unsubscribeUrl }: NewsletterEmailProps) => (
             |{" "}
             <Link href="https://tuenl.sharepoint.com/sites/intranet-LIS/SitePages/Data-stewards(1).aspx">
               Intranet
-            </Link>
+            </Link>{" "}
+            | <Link href="https://par.copernica.tue.nl/">Subscribe</Link>
           </Text>
           <Section className="text-center">
             <Link href="https://zenodo.org/communities/tue_rdmsupport/records?q=&l=list&p=1&s=10&sort=newest">
