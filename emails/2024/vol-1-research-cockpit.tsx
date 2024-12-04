@@ -72,25 +72,6 @@ export const NewsletterEmail = ({ unsubscribeUrl }: NewsletterEmailProps) => (
               Research Data Stewards Newsletter
             </Heading>
           </Section>
-          <Section>
-            <Text>Dear Colleague,</Text>
-            <Text>
-              Welcome to the one and only newsletter dedicated exclusively to
-              researchers at TU/e!
-            </Text>
-            <Text>
-              In this Newsletter you will find news, updates, and services
-              strictly targeted to researchers. We plan to send updates twice
-              per year only.
-            </Text>
-            <Text>We hope you enjoy it,</Text>
-            <Text>
-              Research Data Stewards <br />
-              Product Area Research <br />
-              Library & Information Services
-            </Text>
-          </Section>
-          <Hr />
           <Section className="text-center">
             <Heading>Launch of the Research Cockpit</Heading>
             <Img
