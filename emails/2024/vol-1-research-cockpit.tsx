@@ -88,7 +88,7 @@ export const NewsletterEmail = ({ unsubscribeUrl }: NewsletterEmailProps) => (
               support the entire research data lifecycle.
             </Text>
             <Button
-              className="bg-white box-border rounded-md py-3 px-4 text-center font-semibold w-full"
+              className="bg-white box-border rounded-md py-3 px-4 text-center font-semibold w-full my-4"
               href="https://tue.atlassian.net/helpcenter/research/"
             >
               Go to the Research Cockpit
