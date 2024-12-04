@@ -39,7 +39,7 @@ export const NewsletterEmail = ({ unsubscribeUrl }: NewsletterEmailProps) => (
               <Column>
                 <Link href="https://www.tue.nl/en/our-university/library/library-for-researchers-and-phds/research-data-management">
                   <Img
-                    src={`${baseUrl}/static/TUe-logo-descriptor-line-white.png`}
+                    src={`https://github.com/nsunami/tue-ds-newsletter/blob/7d2db72f3a20ed92ab69104ce3f669cfa6d6a2e7/emails/static/TUe-logo-descriptor-line-white.png?raw=true`}
                     width={150}
                     height={41}
                     alt="TU/e Logo"
