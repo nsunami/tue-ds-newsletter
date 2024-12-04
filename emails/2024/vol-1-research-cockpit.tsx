@@ -222,7 +222,7 @@ export const NewsletterEmail = ({ unsubscribeUrl }: NewsletterEmailProps) => (
             Public Domain Dedication 🧡
           </Text>
           <Text className="text-center">
-            <Link href={unsubscribeUrl || "#"}>Unsubscribe</Link>
+            <Link href={unsubscribeUrl || "{unsubscribe}"}>Unsubscribe</Link>
           </Text>
         </Container>
       </Body>
